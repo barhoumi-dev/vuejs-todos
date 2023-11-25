@@ -1,15 +1,23 @@
 {
-  "name": "@barhoumi-frv/private-package",
-  "private": true,
-  "version": "1.0.0",
+  "name": "@barhoumi-dev/private-package",
+  "version": "1.0.1",
   "type": "module",
+  "repository": {
+    "url": "https://github.com/barhoumi-dev/private-package.git"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.8",
     "@vueuse/core": "^10.6.1",
+    "bootstrap": "^5.3.2",
+    "font-awesome": "^4.7.0",
     "vue": "^3.3.8"
   },
   "devDependencies": {
@@ -20,10 +28,8 @@
     "@vue/eslint-config-prettier": "^8.0.0",
     "@vue/eslint-config-typescript": "^12.0.0",
     "@vue/tsconfig": "^0.4.0",
-    "bootstrap": "^5.3.2",
     "eslint": "^8.49.0",
     "eslint-plugin-vue": "^9.17.0",
-    "font-awesome": "^4.7.0",
     "npm-run-all2": "^6.1.1",
     "prettier": "^3.0.3",
     "sass": "^1.69.5",
