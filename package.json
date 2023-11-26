@@ -1,12 +1,9 @@
 {
-  "name": "@barhoumi-dev/private-package",
+  "name": "@barhoumi-dev/vuejs-todos",
   "version": "1.0.1",
   "type": "module",
   "repository": {
-    "url": "https://github.com/barhoumi-dev/private-package.git"
-  },
-  "publishConfig": {
-    "access": "restricted"
+    "url": "https://github.com/barhoumi-dev/vuejs-todos.git"
   },
   "scripts": {
     "dev": "vite",
